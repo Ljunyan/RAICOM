@@ -16,7 +16,7 @@
 ```bash
 # 克隆仓库
 git clone https://github.com/Ljunyan/RAICOM-Robotics-Competition.git
-cd RAICOM-Robotics-Competition
+cd RAICOM
 
 # 安装系统依赖（在 Ubuntu 上）
 sudo apt update
