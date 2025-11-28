@@ -1,12 +1,4 @@
-﻿# NXROBO Spark (Noetic)
-
-## 特性 / Features
-- 包含 Spark 的核心源码、驱动和若干示例功能包
-- 演示 SLAM、导航、目标跟随与机械臂抓取等功能
-
-## 目录 / Table of Contents
-- 功能包说明 (packages-overview)
-- 系统要求与安装 (requirements & install)
+﻿# RAICOM Competition
 
 ## 系统要求 / Requirements
 - 操作系统：Ubuntu 20.04+
