@@ -43,22 +43,25 @@ source devel/setup.bash
 
 # 工作空间树
 
-├─ src/                      # ROS 源码包目录
-│  ├─ spark_common/          # 通用工具、消息、参数模板
-│  ├─ spark_driver/          # 底盘驱动与硬件接口
-│  ├─ spark_navigation/      # 导航相关（map、amcl、move_base 配置）
-│  ├─ spark_slam/            # SLAM 演示（gmapping/rtabmap 等）
-│  ├─ spark_follower/        # 跟随功能包（视觉/激光跟随）
-│  ├─ spark_carry_object/    # 机械臂抓取与视觉识别示例
-│  ├─ auto/                  # 全自动（详见下文）
-│  ├─ semi/                  # 半自动（详见下文）
-│  └─ tools/                 # 辅助脚本、仿真与数据处理工具
-├─ launch/                   # 全局 launch 脚本集合
-├─ config/                   # 全局参数与地图、yaml 配置
-├─ scripts/                  # 一键运行脚本（onekey.sh 等）
-├─ README.md                 # 简洁，重点介绍主功能 auto & semi
-└─ README_Detailed.me        # 官方
-
+```
+spark_noetic/
+├── src/                          # ROS 源码包目录
+│   ├── spark_common/             # 通用工具、消息、参数模板
+│   ├── spark_driver/             # 底盘驱动与硬件接口
+│   ├── spark_navigation/         # 导航相关（map、amcl、move_base 配置）
+│   ├── spark_slam/               # SLAM 演示（gmapping/rtabmap 等）
+│   ├── spark_follower/           # 跟随功能包（视觉/激光跟随）
+│   ├── spark_carry_object/       # 机械臂抓取与视觉识别示例
+│   ├── auto/                     # 全自动（详见下文）
+│   ├── semi/                     # 半自动（详见下文）
+│   └── tools/                    # 辅助脚本、仿真与数据处理工具
+├── launch/                       # 全局 launch 脚本集合
+├── config/                       # 全局参数与地图、yaml 配置
+├── scripts/                      # 一键运行脚本（onekey.sh 等）
+├── README.md                     # 简洁说明
+├── README_Detailed.md            # 详细文档
+└── .gitignore
+```
 
 ## 各工作空间简短介绍
 - spark_common：公共消息、工具函数、参数模板，其他包依赖的基础库。
