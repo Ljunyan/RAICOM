@@ -66,7 +66,7 @@ spark_noetic/
 - auto：全自动整车流程（见下）。
 - semi：半自动（见下）。
 
-## 重点：auto（全自动运行）
+## auto（全自动运行）
 目的：实现尽可能自主的巡航与任务执行（路径规划 → 行为决策 → 控制）。
 
 内容概览：
@@ -88,7 +88,7 @@ spark_noetic/
 - /cmd_vel（控制输出）
 - 参数：max_vel, max_accel, safety_distance, planner_type
 
-## 重点：semi（半自动）
+## semi（半自动）
 目的：提供手动控制接口。
 
 内容概览：
